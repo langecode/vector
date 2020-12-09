@@ -13,6 +13,7 @@ spec:
     - 'hostPath'
     - 'configMap'
     - 'secret'
+    - 'projected'
   allowedHostPaths:
     - pathPrefix: "/var/log"
       readOnly: true
